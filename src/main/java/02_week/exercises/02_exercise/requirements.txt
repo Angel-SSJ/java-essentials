@@ -1,0 +1,7 @@
+2. Ejercicio 2: Clase Circulo
+Crea una clase Circulo con:
+• Atributo privado radio
+• Constructores (por defecto radio=1.0 y otro con valor)
+• Getters/setters con validación
+• Métodos para calcular área y circunferencia
+• Sobrecarga para calcular área con radio parámetro

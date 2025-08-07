@@ -1,0 +1,2 @@
+Crear un programa para determinar si un número es par o impar (Con valor fijo en variable y que al cambiar el
+número el programa tenga otro comportamiento).-

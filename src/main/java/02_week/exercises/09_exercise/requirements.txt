@@ -1,0 +1,7 @@
+9. Ejercicio 9: Clase Coche
+• Crea una clase Coche con:
+• Atributos: marca, modelo, año, velocidad (private)
+• Constructores (básico y completo)
+• Métodos acelerar() y frenar() que modifican velocidad
+• Sobrecarga de acelerar() para diferentes incrementos
+• Método mostrarVelocidad() en km/h y mph (sobrecarga)

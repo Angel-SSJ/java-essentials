@@ -1,0 +1,5 @@
+Ejercicio 8: Inventario de Productos
+1. Clase abstracta Producto con ID y precio
+2. Interfaces Descuento y Garantia
+3. Clases Electrodomestico, Alimento con atributos extra
+4. Método mostrarDetalles() formateado

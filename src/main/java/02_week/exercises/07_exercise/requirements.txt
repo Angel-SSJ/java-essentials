@@ -1,0 +1,7 @@
+7. Ejercicio 7: Clase Punto2D
+Crea una clase Punto2D con:
+• Atributos x, y (private)
+• Constructores (origen y con coordenadas)
+• Métodos getters/setters
+• Métodos distancia al origen y a otro punto
+• Sobrecarga de métodos de distancia

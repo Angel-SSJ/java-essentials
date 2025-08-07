@@ -1,0 +1,7 @@
+8. Ejercicio 8: Clase Contacto
+Crea una clase Contacto con:
+• Atributos: nombre, telefono, email (private)
+• Constructores (con y sin email)
+• Validar formato email en setter
+• Método mostrarContacto() y sobrecarga para formato compacto
+• Método equals() para comparar por teléfono

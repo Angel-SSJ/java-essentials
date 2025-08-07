@@ -1,0 +1,8 @@
+10. Ejercicio 10: Clase Producto
+Crea una clase Producto con:
+• Atributos: id, nombre, precio, stock (private)
+• Constructores (con y sin stock - por defecto 0)
+• Validar precios positivos
+• Métodos aumentarStock() y reducirStock()
+• Sobrecarga para aumentarStock() con lote múltiple
+• Método valorInventario() (precio * stock)

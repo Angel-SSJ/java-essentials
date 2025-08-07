@@ -1,0 +1,5 @@
+4.	Ejercicio 4: Rotación de Arrays
+•	Rotar los elementos de un array hacia la izquierda o derecha según un número de posiciones dado.
+•	Ejemplo (rotar a la derecha 2 posiciones):
+•	{1, 2, 3, 4, 5} → {4, 5, 1, 2, 3}.
+•	Usar solo estructuras de control y arrays auxiliares.

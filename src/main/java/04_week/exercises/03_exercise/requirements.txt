@@ -1,0 +1,4 @@
+3.	Ejercicio 3: Eliminación de Duplicados
+•	Crear un array con elementos duplicados (ej.: {1, 2, 3, 2, 4, 1}).
+•	Eliminar los duplicados y devolver un nuevo array con valores únicos.
+•	Mostrar el array original y el resultado.

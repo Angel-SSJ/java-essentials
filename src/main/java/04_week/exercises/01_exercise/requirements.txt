@@ -1,0 +1,5 @@
+1.	Ejercicio 1: Búsqueda y Ordenamiento Avanzado
+•	Crear un array de 20 números enteros aleatorios entre 1 y 100.
+•	Ordenar el array usando Arrays.sort().
+•	Implementar una búsqueda binaria personalizada (sin usar Arrays.binarySearch) para encontrar un valor dado.
+•	Mostrar el array ordenado y la posición del valor buscado.

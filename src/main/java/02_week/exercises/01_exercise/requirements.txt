@@ -1,0 +1,6 @@
+1. Ejercicio 1: Clase Libro
+Crea una clase LIBRO con:
+• Atributos privados: titulo, autor, ISBN, numPaginas
+• Dos Constructores (uno con todos los atributos y otro sin ISBN).
+• Getters y setters con validación (páginas > 0).
+• Método mostrarInfo() y su sobrecarga para mostrar el formato resumido.

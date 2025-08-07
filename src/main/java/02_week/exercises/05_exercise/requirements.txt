@@ -1,0 +1,8 @@
+5. Ejercicio 5: Clase Password
+Crea una clase Password con:
+• Atributo contraseña (private)
+• Constructor genera contraseña aleatoria de 8 chars
+• Constructor que recibe contraseña (validar fortaleza)
+• Métodos getter y setter (con validación)
+• Método esFuerte() que compruebe seguridad
+• Sobrecarga de esFuerte() con parámetro longitud mínima

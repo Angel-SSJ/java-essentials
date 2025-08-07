@@ -1,0 +1,6 @@
+6.	Ejercicio 6: Suma de Elementos Extremos
+•	Crear un array de 10 números aleatorios.
+•	Sumar el primer elemento con el último, el segundo con el penúltimo, etc.
+•	Mostrar el array y los resultados de las sumas.
+•	Ejemplo:
+•	{5, 3, 8, 1, 4} → 5+4=9, 3+1=4, 8+8=16.

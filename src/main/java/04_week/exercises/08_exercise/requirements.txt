@@ -1,0 +1,5 @@
+8.	Ejercicio 8: Frecuencia de Elementos
+•	Dado un array de strings, contar cuántas veces aparece cada palabra.
+•	Ejemplo:
+•	{"hola", "mundo", "hola", "java"} → "hola": 2, "mundo": 1, "java": 1.
+•	Usar un array auxiliar para almacenar los resultados.

@@ -1,0 +1,7 @@
+3. Ejercicio 3: Clase Estudiante
+Crea una clase Estudiante con:
+• Atributos: nombre, edad, carrera, promedio (private)
+• Constructores (uno completo y otro sin promedio)
+• Getters/setters (validar promedio 0-10)
+• Método aprobar() que incrementa promedio en 0.5 (hasta max 10)
+• Sobrecarga de aprobar() con parámetro de incremento

@@ -1,0 +1,1 @@
+4. Crear un programa que sume los números del 1-10 (Usando el “while”)

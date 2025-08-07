@@ -1,0 +1,5 @@
+Ejercicio 5: Zoológico
+1. Clase abstracta Animal con nombre y edad
+2. Interfaces Sonido y Movimiento con métodos que impriman acciones
+3. Clases Leon, Pajaro, Delfin con comportamientos únicos
+4. Método mostrarAnimal() que imprima todos los datos

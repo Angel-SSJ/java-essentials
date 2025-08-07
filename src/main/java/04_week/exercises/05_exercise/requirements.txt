@@ -1,0 +1,6 @@
+5.	Ejercicio 5: Matriz Transpuesta
+•	Dada una matriz cuadrada (ej.: 3x3), crear su matriz transpuesta.
+•	Ejemplo:
+•	Original: {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+•	Transpuesta: {{1, 4, 7}, {2, 5, 8}, {3, 6, 9}}.
+•	Mostrar ambas matrices usando Arrays.deepToString().

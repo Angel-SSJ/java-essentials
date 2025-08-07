@@ -1,0 +1,7 @@
+4. Ejercicio 4: Clase Reloj
+Crea una clase Reloj con:
+• Atributos: horas, minutos, segundos (private)
+• Constructores (por defecto 00:00:00 y otro con valores)
+• Validar valores (horas 0-23, etc.)
+• Método mostrarHora() en formato 24h y 12h (sobrecarga)
+• Método ajustarHora() con validación

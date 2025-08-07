@@ -1,0 +1,4 @@
+7.	Ejercicio 7: Array de Objetos
+•	Crear una clase Persona con atributos nombre (String) y edad (int).
+•	Generar un array de 5 objetos Persona y ordenarlo por edad usando Arrays.sort() con un Comparator.
+•	Mostrar el array antes y después de ordenar.

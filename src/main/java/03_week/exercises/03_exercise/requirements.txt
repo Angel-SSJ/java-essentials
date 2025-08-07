@@ -1,0 +1,6 @@
+Ejercicio 3: Sistema Educativo
+1. Enunciado: Modela usuarios de un sistema educativo:
+2. Clase abstracta Usuario con id, nombre y email
+3. Interfaz Autenticable con métodos login() y logout() que impriman estados
+4. Clases Estudiante, Profesor con atributos adicionales
+5. Método mostrarInformacion() en cada clase

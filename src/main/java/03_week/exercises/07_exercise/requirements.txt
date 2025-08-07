@@ -1,0 +1,5 @@
+Ejercicio 7: Sistema de Notificaciones
+1. Clase abstracta Notificacion con remitente y mensaje
+2. Interfaz Priorizable con niveles de prioridad
+3. Clases EmailNotificacion, SMSNotificacion
+4. Método enviar() que imprima detalles en consola

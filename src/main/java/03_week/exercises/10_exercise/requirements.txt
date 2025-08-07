@@ -1,0 +1,5 @@
+Ejercicio 10: Monitor de Componentes PC
+1. Clase abstracta Componente con fabricante y modelo
+2. Interfaces Energia y Temperatura
+3. Clases CPU, GPU con métricas simuladas
+4. Método monitorear() que muestre valores actuales

@@ -1,0 +1,1 @@
+9. Crear un programa que muestre los múltiplos de 3 hasta 30 (Usando el “do-while”)

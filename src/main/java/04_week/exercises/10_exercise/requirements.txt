@@ -1,0 +1,5 @@
+10.	Ejercicio 10: Palíndromo con Arrays
+•	Verificar si un array de caracteres es palíndromo (se lee igual al derecho y al revés).
+•	Ejemplo:
+•	{'a', 'b', 'c', 'b', 'a'} → es palíndromo.
+•	Mostrar el array y el resultado.

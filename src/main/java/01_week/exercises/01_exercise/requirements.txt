@@ -1,0 +1,2 @@
+Crear un programa que verifique si un número es positivo o negativo (Con valor fijo en variable y que al
+cambiar el número el programa tenga otro comportamiento).

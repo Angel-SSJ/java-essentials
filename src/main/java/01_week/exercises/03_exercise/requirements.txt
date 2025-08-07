@@ -1,0 +1,1 @@
+3. Crear un programa que muestre los primeros 10 números naturales (Usando el “for”).

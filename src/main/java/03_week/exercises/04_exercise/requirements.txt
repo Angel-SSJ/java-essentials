@@ -1,0 +1,6 @@
+Ejercicio 4: Calculadora de Figuras Geométricas
+1. Clase abstracta Figura con métodos area() y perimetro()
+2. Interfaz Redimensionable con método escalar()
+3. Clases Circulo, Rectangulo con implementaciones
+4. Mostrar resultados por consola con 2 decimales
+5. Programa de menú simple para probar las figuras

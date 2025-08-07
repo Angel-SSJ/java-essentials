@@ -1,0 +1,5 @@
+Ejercicio 1: Sistema de Vehículos
+1. Clase abstracta Vehiculo con marca, modelo y año
+2. Interfaz Motorizable con métodos encender() y apagar() que impriman mensajes
+3. Clase Automovil que extienda Vehiculo e implemente Motorizable
+4. Clase Motocicleta que también extienda e implemente

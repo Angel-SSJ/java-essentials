@@ -1,0 +1,5 @@
+Ejercicio 2: Sistema de Empleados
+1. Clase Empleado con nombre y salario base
+2. Interfaz Bonificable con método calcularBonificacion()
+3. Clases Gerente, Vendedor que extiendan Empleado
+4. Método mostrarDatos() que imprima toda la información

@@ -1,0 +1,7 @@
+6. Ejercicio 6: Clase Electrodoméstico
+Crea una clase Electrodomestico con:
+• Atributos: consumoEnergetico, precio, color, peso
+• Constructores (valores por defecto y completo)
+• Getters y validación en setters
+• Método precioFinal() según consumo y peso
+• Sobrecarga para aplicar descuento adicional

@@ -1,0 +1,5 @@
+Ejercicio 6: Sistema de Dispositivos
+1. Clase abstracta Dispositivo con marca y modelo
+2. Interfaces Conectable y Actualizable con métodos console
+3. Clases Telefono, Tablet con características específicas
+4. Método mostrarEspecificaciones()

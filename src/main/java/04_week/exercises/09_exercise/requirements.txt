@@ -1,0 +1,4 @@
+9.	Ejercicio 9: División en Subarrays
+•	Dividir un array en subarrays de tamaño n (ej.: n=3 para {1, 2, 3, 4, 5, 6} → {{1, 2, 3}, {4, 5, 6}}).
+•	Mostrar los subarrays resultantes.
+•	Desafío: Manejar casos donde el tamaño no es múltiplo de n (ej.: usar Arrays.copyOfRange).
