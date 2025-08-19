@@ -1,0 +1,14 @@
+Gestión de Libros con ArrayList y Herencia
+
+Crea una clase Libro con atributos: titulo (String), autor (String), precio (double). Usa constructores y getters/setters.
+
+Crea una clase LibroDigital que herede de Libro y añada tamanoMB (double).
+
+En una clase Biblioteca:
+
+Usa un ArrayList<Libro> para almacenar 2 libros normales y 1 digital.
+
+Implementa un método mostrarLibros() que imprima los datos de todos los libros.
+
+
+Respuesta:(sistema de penalización: 10, 20, ... %)

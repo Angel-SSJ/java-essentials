@@ -1,0 +1,22 @@
+/*
+* CREA UNA CLASE ESTADISTICAS CON LOS SIGUIENTES METODOS:
+
+calcularPromedio(int[] numeros): Devuelve el promedio de un array de enteros.
+
+encontrarMaximo(int[] numeros): Devuelve el número más grande del array.
+
+encontrarMinimo(int[] numeros): Devuelve el número más pequeño.
+
+En el método main, crea un array con los valores {5, 10, 15, 20, 25} y muestra:
+
+El promedio.
+
+El máximo.
+
+El mínimo.
+
+
+Respuesta:(sistema de penalización: 10, 20, ... %)
+El editor Ace no está listo. Tal vez funcione si vuelve a cargar la página.
+Falling back to raw text area.
+* */
