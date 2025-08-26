@@ -18,7 +18,7 @@ val junitVersion = "5.10.2"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(24)
+        languageVersion = JavaLanguageVersion.of(17)
     }
 }
 
@@ -28,7 +28,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("org.example.javaessentials")
-    mainClass.set("org.example.javaessentials.HelloApplication")
+    mainClass.set("org.example.javaessentials.Main")
 }
 
 javafx {
@@ -39,6 +39,7 @@ javafx {
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    implementation("com.formdev:flatlaf:3.5.1")
 }
 
 tasks.withType<Test> {
