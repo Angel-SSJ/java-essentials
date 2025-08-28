@@ -5,12 +5,12 @@ import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.*;
 import java.awt.event.*;
 
-class EjemploJTextFieldConAccion implements ActionListener {
+class Main implements ActionListener {
     JTextField tf1, tf2, tf3;
     JButton botonSuma, botonResta;
 
-    EjemploJTextFieldConAccion() {
-        JFrame frame = new JFrame("Suma y Resta");
+    Main() {
+        JFrame frame = new JFrame("Addition and Subtraction");
 
         tf1 = new JTextField();
         tf1.setBounds(50, 50, 150, 20);
@@ -64,6 +64,6 @@ class EjemploJTextFieldConAccion implements ActionListener {
             e.printStackTrace();
         }
 
-        new EjemploJTextFieldConAccion();
+        new Main();
     }
 }

@@ -15,7 +15,7 @@ class Main extends JFrame implements ActionListener {
 
     Main(){
 
-        label = new JLabel("Select your favorite programming languages:");
+        label = new JLabel("Select your favorite programming languages");
         label.setBounds(20,20,300,30);
 
         checkBox01 = new JCheckBox("Java");

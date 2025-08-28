@@ -2,6 +2,7 @@ package week06.swing_ui.basic_components._01_example;
 
 import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.*;
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,11 +17,14 @@ public class Main {
 
         JLabel tabWithIcon = new JLabel(icon,SwingConstants.CENTER); //SwingConstants.CENTER this center the component
         tabWithIcon.setBounds(50,50,600,600);
+        tabWithIcon.setHorizontalAlignment(JLabel.CENTER);
+        tabWithIcon.setVerticalAlignment(JLabel.CENTER);
 
-        frame.add(tabWithIcon);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700,700);
-        frame.setLayout(null);
+        frame.setLayout(new BorderLayout());
+        frame.add(tabWithIcon,BorderLayout.CENTER);
         frame.setVisible(true);
 
 

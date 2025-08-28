@@ -7,12 +7,12 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-class ExampleTextAreaWithAction implements ActionListener {
+class Main implements ActionListener {
     JLabel tabWords, tabCharacters;
     JTextArea textArea;
     JButton countButton;
 
-    ExampleTextAreaWithAction() {
+    Main() {
         JFrame frame = new JFrame("Counter of Words and Characters");
 
         tabWords = new JLabel("Words: ");
@@ -25,7 +25,7 @@ class ExampleTextAreaWithAction implements ActionListener {
         textArea.setBounds(20,75,250,200);
 
         countButton = new JButton("Counter");
-        countButton.setBounds(100,300,150,30);
+        countButton.setBounds(50,300,150,30);
         countButton.addActionListener(this);
 
         frame.add(tabWords);
@@ -33,7 +33,7 @@ class ExampleTextAreaWithAction implements ActionListener {
         frame.add(textArea);
         frame.add(countButton);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400,400);
+        frame.setSize(300,400);
         frame.setLayout(null);
         frame.setVisible(true);
 
@@ -57,8 +57,7 @@ class ExampleTextAreaWithAction implements ActionListener {
             e.printStackTrace();
         }
 
-        new ExampleTextAreaWithAction();
-
+        new Main();
 
 
 

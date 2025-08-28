@@ -3,6 +3,7 @@ package week06.swing_ui.basic_components._03_example;
 import com.formdev.flatlaf.FlatLightLaf;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class Main {
@@ -13,27 +14,27 @@ public class Main {
             e.printStackTrace();
         }
 
-        JFrame frame = new JFrame("Validación de JPasswordField");
+        JFrame frame = new JFrame("Validation with JPasswordField");
         final JLabel tabResult = new JLabel();
         tabResult.setBounds(20, 150, 200, 50);
 
         final JPasswordField fieldPassword = new JPasswordField();
-        fieldPassword.setBounds(100, 75, 100, 30);
+        fieldPassword.setBounds(100, 20, 100, 30);
 
         JLabel tabPassword = new JLabel("Contraseña:");
-        tabPassword.setBounds(20, 75, 80, 30);
+        tabPassword.setBounds(20, 20, 80, 30);
 
         JButton botonValidate = new JButton("Validar");
-        botonValidate.setBounds(110, 120, 80, 30);
+        botonValidate.setBounds(110, 60, 80, 30);
 
 
-        frame.add(tabPassword);
-        frame.add(fieldPassword);
-        frame.add(botonValidate);
-        frame.add(tabResult);
+        frame.add(tabPassword,BorderLayout.CENTER);
+        frame.add(fieldPassword,BorderLayout.CENTER);
+        frame.add(botonValidate,BorderLayout.CENTER);
+        frame.add(tabResult,BorderLayout.CENTER);
 
-        frame.setSize(400,400);
-        frame.setLayout(null);
+        frame.setSize(300,200);
+        frame.setLayout(new BorderLayout());
         frame.setVisible(true);
 
         botonValidate.addActionListener(new ActionListener() {
@@ -41,9 +42,9 @@ public class Main {
                 String password = new String(fieldPassword.getPassword());
 
                 if (password.equals("secret")) {
-                    tabResult.setText("Contraseña correcta");
+                    tabResult.setText("Correct password");
                 } else {
-                    tabResult.setText("Contraseña incorrecta");
+                    tabResult.setText("Incorrect password");
                 }
             }
         });
